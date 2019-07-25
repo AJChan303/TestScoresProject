@@ -13,7 +13,7 @@ namespace TestScoresProject {
                 avg = total / 12;
 
             }
-            Console.WriteLine($"The Average is {avg} + %");
+            Console.WriteLine($"The Average is {avg}%");
         }
     }
 }
