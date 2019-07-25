@@ -10,7 +10,7 @@ namespace TestScoresProject {
             while (index < 12) {
                 total = total + scores[index];
                 index = index + 1;
-                avg = total / 12;
+                avg = total / index;
 
             }
             Console.WriteLine($"The Average is {avg}%");
